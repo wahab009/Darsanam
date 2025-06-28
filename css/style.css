@@ -1,0 +1,1507 @@
+/* Import Fonts linnks */
+@import url("https://fonts.googleapis.com/css2?family=Playball&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+body {
+  background: #e7d1b6;
+}
+
+/*///////////////////////////////////// Top Header */
+
+
+.header-img {
+  background-image: url(../img/header-img.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% 100%;
+  height: 60px;
+}
+
+/* ///////////////////////////////////  Header & navigation */
+
+
+.hero-bg {
+  background-image: url(../img/header-bg-img.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  padding-top: 0px;
+  padding-bottom: 48px;
+  position: relative;
+}
+.hero-major-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.darsanam-section img {
+  width: 100%;
+}
+.hero-heading h1 {
+  font-family: "Playball", cursive;
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 90px;
+  letter-spacing: 3%;
+  text-align: center;
+  margin-bottom: 0px;
+}
+
+
+/* NAVBAR */
+.darsanam-navbar {
+  background-color: #d9b897 !important;
+  position: relative;
+  top: -25px;
+  border-radius: 13px;
+}
+
+.darsanam-navbar .navbar-nav .nav-link.active {
+  background: #592020;
+  color: #ffffff !important;
+  border-radius: 13px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  
+}
+.darsanam-navbar li a {
+  font-family: "Roboto", sans-serif;
+  color: #592020 !important;
+  border-radius: 13px;
+  font-weight: 700;
+}
+.darsanam-navbar li a:hover{
+  background-color: #592020;
+  color: white !important;
+  border-radius: 13px;
+  
+}
+.for-border{
+  border-right: 2px solid #592020;
+}
+.for-border-left{
+  border-left: 2px solid #592020;
+}
+
+.login-btns a{
+  background-color:  #e1bc7b;
+  font-weight: 700;
+  height: 100%;
+  color: #592020;
+  border-radius: 0px;
+}
+.login-btns a:hover{
+  border-radius: 13px;
+  font-weight: 700;
+  background-color: #592020;
+  color: #d9b897;
+}
+
+
+
+/* Daily Muhurat section  */
+
+/* map section */
+
+.dms-map {
+  position: relative;
+  width: 100%; 
+  height: 100%;
+  overflow: hidden;
+  border-radius: 20px;
+  height: 560px;
+}
+
+.dms-map iframe{
+  width: 100%;
+  height: 100%;
+}
+.dms-map-card{
+  height: auto;
+  width: 100%;
+  background-color: #F5E7CA;
+  border-radius: 20px;
+}
+.dms-card-row{
+  width: 100%;
+}
+.dms-map-card img{
+  margin: 0 auto;
+  height:120px;
+  width: 120px;
+}
+.dms-map-card h4{
+  /* font-size: 25px; */
+  font-weight: 900;
+  color: #592020;
+  padding-top: 20px;
+}
+.dms-map-card p{
+   /* font-size: 20px; */
+   padding: 5px 5px 20px 5px;
+  font-weight: 900;
+  color: #592020;
+}
+
+.dms-imgs img{
+  border-radius: 20px;
+  width: 100%;
+  height: 275px;
+  /* padding-bottom: 0px; */
+  object-fit: fill;
+  margin-top: 5px;
+}
+
+
+.services-section {
+  background: #f6e5c7;
+  border-radius: 33px;
+  height: 560px;
+  padding: 15px;
+}
+
+.services-section hr {
+  margin-bottom: 10px;
+}
+.services-section .break-sec {
+  margin: 10px 0px;
+}
+
+.muharat-img-sec img {
+  width: 100%;
+  border-radius: 13px;
+  /* height: 198px; */
+}
+.second-muhrat-img {
+  margin-top: 10px;
+}
+
+.services-section img {
+  height: 60px;
+  width: 75px;
+}
+.services-section h3 {
+  font-family: "Roboto", sans-serif;
+  color: #592020;
+  font-weight: 900;
+  font-size: 25px;
+  letter-spacing: 0%;
+}
+.s-sec {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+.ss-data h4 {
+  font-family: "Roboto", sans-serif;
+  color: #592020;
+  font-weight: 700;
+  font-size: 17px;
+  /* line-height: 100%; */
+  margin-bottom: 0px;
+  padding-bottom: 15px;
+}
+.ss-data p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  margin-bottom: 0px;
+  color: #592020bf;
+}
+.ss-data {
+  flex-direction: column;
+}
+.temple-sec {
+  padding-bottom: 0px;
+}
+.ss-temples {
+  overflow: hidden;
+  background: #367a53;
+  height: 100%;
+  border-radius: 13px 0px 0px 13px;
+}
+.ss-temples h5 {
+  color: #ffffff;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  width: 90%;
+  /* line-height: 100%; */
+  text-align: center;
+  margin-bottom: 0px;
+  padding-top: 25px;
+  padding-bottom: 13px;
+}
+.ss-temples img {
+  width: 100%;
+  height: 100px;
+  object-fit: cover;
+}
+.temple-sect {
+  background: #8a4b76;
+  border-radius: 0px;
+}
+.temple-section {
+  border-radius: 0px 13px 13px 0px;
+  background: #e17438;
+}
+
+
+
+
+
+
+
+
+
+
+/* Calender Section */
+
+.calender-section {
+  overflow: hidden;
+  padding-top: 20px;
+}
+.hindu-calender,
+.book-a-pooja {
+  position: relative;
+  padding-right: 220px; /* Ensure text does not overlap with image */
+}
+
+.hindu-calender img {
+   position: absolute;
+   right: 0;
+   bottom :0%;
+  /* transform: translateY(-75%); */
+  height: 455px;
+  width: 320px;
+}
+.book-a-pooja img {
+  position: absolute;
+  right: -75px;
+  bottom: 1px;
+   /* transform: translateY(-75%); */
+  height: 428px;
+}
+.calender-section .hindu-calender {
+  border-radius: 13px;
+  background-color: #c2724a;
+  padding: 20px 20px 0px 0px;
+}
+
+.calender-section .book-a-pooja {
+  border-radius: 13px;
+  background-color: #eba939;
+  padding: 30px 40px 114px 40px;
+}
+
+.hc-heading h1 {
+  font-size: 40px;
+  font-weight: 900;
+  padding-left: 17px;
+  color: #592020;
+}
+.hindu-calender {
+  margin-bottom: 20px;
+}
+
+/* book a ppooja  */
+.book-a-pooja h1 {
+  color: #592020;
+  font-size: 40px;
+  font-weight: 900;
+  padding-bottom: 20px;
+}
+.book-a-pooja h4 {
+  color: #ffffff;
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  font-size: 33.56px;
+  line-height: 50.35px;
+  margin-bottom: 0px;
+  /* padding-bottom: 24px; */
+} 
+.select-temple .form-select{
+  background-color: transparent;
+  border: 2px solid white;
+  color: white;
+  width: 50%;
+}
+ 
+.select-date {
+  padding-top: 10px;
+  color: #ffffff;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 23.56px;
+  line-height: 50.35px;
+  margin-bottom: 0px;
+  padding-bottom: 40px;
+  padding-right: 10px;
+}
+
+.select-date input{
+  width: 50%;
+  border: 2px solid white;
+  background-color: transparent;
+  color: white;
+}
+.select-date input:hover{
+  width: 50%;
+  border: none;
+  color: white;
+  background-color: transparent;
+}
+.book-a-pooja .book-btn {
+  background: #ffffff;
+  padding: 8px 10px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 25.56px;
+  /* line-height: 50.35px; */
+  color: #592020;
+  position: relative;
+  z-index: 2;
+  border-radius: 16px;
+}
+.select-temple button{
+  background-color: transparent;
+  border: none;
+  font-size: 33px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+.select-temple button:hover{
+  outline: 0;
+  box-shadow: 0;
+  background-color: transparent;
+}
+
+    /* calender  */
+    
+    .calendar {
+      width: 300px;
+        margin-left: 30px;
+        padding-bottom: 30px;
+    }    
+    .calendar__month {
+      font-size: 20px;
+      font-weight: 800;
+      padding: 10px 0;
+      width: 100%;
+      position: relative;
+    }
+    
+    .cal-month__previous,
+    .cal-month__next {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      cursor: pointer;
+      width: 30px;
+      height: 30px;
+      text-align: center;
+      
+      &:hover {
+        background-color: #42A5F5;
+        box-shadow: 0 5px 5px -5px rgba(0,0,0,0.75);
+        border-radius: 50%;
+        font-weight: 800;
+        color: #111;
+      }
+    }
+    
+    .cal-month__next {
+      right: 0;
+    }
+    
+    .cal-month__current {
+      text-align: center;
+      color: #e1e1e1;
+    }
+    
+    .cal-head__day,
+    .cal-body__day {
+      display: inline-block;
+      width: 42px;
+      height: 42px;
+      float: left;
+    }
+    
+    .cal-body__week,
+    .calendar__head {
+      display: block;
+      height: 50px;
+      width: 300px;
+    }
+    
+    .calendar__head {
+      line-height: 50px;
+      position: relative;
+      
+      &:after {
+        content: ' ';
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 1px;
+        background-color: #90CAF9;
+      }
+    }
+    
+    .cal-body__day {
+      color: white;
+      line-height: 50px;
+      text-align: center;
+      cursor: pointer;
+    }
+    
+    .cal-day__month--current {
+      color: #e1e1e1;
+    }
+    
+    .cal-day__day--today {
+      font-weight: 800;
+      color: #2196f3;
+    }
+    
+    .cal-day__day--selected {
+      background-color: #592020;
+      box-shadow: 0 5px 10px -5px rgba(0, 0, 0, .75);
+      border-radius: 50%;
+      color: white;
+    }
+
+
+
+    /* Select your issue Section */
+
+    
+.fs-img img {
+  width: 100%;
+  height: 541px;
+  object-fit: cover;
+  object-position: top;
+  border-radius: 20px;
+}
+.select-your-issue {
+  padding: 28px;
+  padding-bottom: 10px;
+  background-color: #592020;
+  border-radius: 20px;
+}
+.select-your-issue h1 {
+  font-weight: 800;
+  font-size: 32px;
+  margin-bottom: 0px;
+  padding-bottom: 16px;
+}
+.checkboxes {
+  padding-left: 20px;
+  padding-bottom: 20px;
+}
+.fs-check {
+  min-height: 1.5rem;
+  padding-bottom: 10px;
+  margin-bottom: 0.125rem;
+}
+.form-check-input[type="checkbox"] {
+  border-radius: 0px !important;
+  border: none;
+}
+ .fs-check .form-check-label {
+  font-size: 18px;
+  font-weight: 400;
+}
+.fs-issue {
+  width: 90%;
+  margin: 0 auto;
+}
+.fs-issue label {
+  font-size: 20px;
+  font-weight: 400;
+}
+.fs-issue form input,
+.fs-issue form textarea {
+  width: 70%;
+  border: none;
+}
+.fs-issue form textarea {
+  resize: none;
+}
+.fs-issue .inputs {
+  padding-bottom: 20px;
+  display: flex;
+}
+.issue-below-texts h2 {
+  padding-top: 40px;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.form-section {
+  padding-top: 20px;
+}
+
+
+
+
+
+    /* community threads & hindu philosophy sectoin  */
+    .ct-hp{
+      padding-top: 20px;
+    }
+    /* community threads */
+    .ct{
+      overflow: hidden;
+      border-top-left-radius: 20px;
+      border-bottom-left-radius: 20px;
+      background-color: #CDA36C;
+      padding-top: 20px;
+      padding-bottom: 40px;
+      padding-left: 20px;
+      height: max-content;
+  }
+  .ct .ct-headings h1{
+      font-size: 28px;
+      font-weight: 900;
+      padding-left: 15px;
+      color: #592020;
+  }
+  .ct .ct-headings p{
+      font-size: 12px;
+      font-weight: 400;
+      color: #464646;
+      padding-left: 17px;
+  }
+  .positioning-img{
+      
+      height: 157px;
+      width: 150px;
+      bottom: 55px;
+      left: -72px;
+  }
+  .positioning-img img{      
+      height: 120%;
+      width: 100%;       
+  }
+  .images-groups {
+      padding-top: 20px;
+      padding-bottom: 50px;
+
+  }
+  .images-group-1 {
+      width: 95%;
+      margin-top: 20px;
+      margin-left: 20px;
+  }
+  .images-group-2 {
+      width: 95%;
+      margin-top: 10px;
+      margin-left: 20px;
+  }
+  .images-group-1 .group-img-2,
+  .images-group-1 .group-img-1,
+  .images-group-1 .group-text{
+      width: 100%;
+      border-radius: 10px;
+      height: 100px;
+      background-color: #F5E4C6;
+  }
+  .images-group-1 .group-img-2,
+  .images-group-1 .group-img-1{
+      background-color:none;
+  }
+  .images-group-1 .group-img-1 img,
+  .images-group-1 .group-img-2 img {
+      object-fit: cover;
+      height: 100%;
+      width: 100%;
+      border-radius: 10px;
+  }
+  .images-group-2 .group-img-2,
+  .images-group-2 .group-img-1,
+  .images-group-2 .group-text{
+      width: 100%;
+      border-radius: 10px;
+      height: 100px;
+      background-color: #F5E4C6;
+  }
+  .images-group-2 .group-img-2,
+  .images-group-2 .group-img-1{
+      background-color:none;
+  }
+  .images-group-2 .group-img-1 img,
+  .images-group-2 .group-img-2 img {
+      object-fit: cover;
+      height: 100%;
+      width: 100%;
+      border-radius: 10px;
+  }
+  .group-text h6{
+      font-size: 15px;
+      padding-left: 5px;
+      padding-top: 5px;
+      padding-right: 5px;
+      color: #844C1F;
+      
+  }
+  .group-text p{
+      font-size: 9px;
+      padding-right: 5px;
+      padding-left: 5px;
+      color: #844C1F;
+  }
+  /* Hindu philosophy */
+  .h-p{
+      border-top-right-radius: 20px;
+     border-bottom-right-radius: 20px;
+      background-color: #F5E4C6;
+      padding-top: 12px;
+      padding-bottom: 3px;
+      padding-left: 20px;
+      padding-right: 20px;
+      height: max-content;
+  }
+  .h-p h1{
+      font-size: 28px;
+      font-weight: 900;
+      /* padding-left: 28px; */
+      color: #592020;
+  }
+  .b-m{
+      padding-top: 10px;
+  }
+  .b-m-round-img {
+      /* object-fit: cover; */
+      width: 90px;
+      height: 90px;
+      border-radius: 100%;
+  }
+  .b-m-img img{
+      object-fit: cover;
+      height: 120px;
+      width: 100%;
+      border-radius: 10px;
+  }
+  .b-m-data h3{
+      font-size: 18px;
+      padding-top: 5px;
+      padding-left: 15px;
+      font-weight: 500;
+      color: #448A53;  
+  }
+  .b-m-peragraph p{
+      padding-top: 15px;
+      font-size: 14px;
+      font-weight: 400;
+      color: #484848;
+  }
+  
+  .b-m-data h6{
+    padding-left: 15px;
+  }
+
+
+
+  /* Facts Section */
+  
+.facts-section {
+  padding-top: 24px;
+}
+.fact-sec h4 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 800;
+  font-size: 28px;
+  line-height: 60px;
+  color: #592020;
+  padding-bottom: 12px;
+  margin-bottom: 0px;
+}
+.fact-sec p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 40px;
+  color: #000000;
+  padding-bottom: 12px;
+  margin-bottom: 0px;
+}
+.temple-india-section h3 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-size: 28px;
+  line-height: 60px;
+  color: #592020;
+  text-align: right;
+}
+.copyright-section p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 60px;
+  color: #00000080;
+  margin-bottom: 0px;
+}
+
+
+  
+ 
+/* Checkboxes section */
+
+
+.check-section {
+  padding-top: 20px;
+}
+.check-sect {
+  background: #dbc4b2;
+  padding: 8px 44px;
+  border-radius: 10px 10px 0px 0px;
+}
+.check-sec .form-check {
+  display: flex;
+  gap: 17px;
+  align-items: center;
+}
+.check-sec input {
+  width: 24px;
+  height: 24px;
+}
+.check-sec label {
+  color: #000000;
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+}
+.check-wise-sec {
+  background: #bf8d66;
+  border-radius: 0px;
+}
+.check-divine-sec {
+  background: #ae7649;
+  border-radius: 0px;
+}
+.check-books-sec {
+  background: #955d30;
+  border-radius: 0px;
+}
+.check-idle-sec {
+  background: #592020;
+  border-radius: 0px 0px 10px 10px;
+}
+
+
+/* Temples Section */
+
+
+.rt ,.st ,.ft ,.at ,.donate{
+  border-radius: 20px;
+  margin-top: 10px;
+}
+.rt{
+  padding-top: 40px;
+  padding-bottom: 18px;
+  background-color: #C1724B;
+}
+.at-logo {
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+  background-color: #592020;
+  margin: 0 auto;
+  /* position: relative;
+  top: 30px; */
+}
+.at-logo img ,.d-logo img {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+.st h1 ,.ft h1{
+  padding-top: 20px;
+  font-size: 30px;
+  font-weight: 750;
+
+}
+.rt h1 ,.at h1{
+
+  font-size: 30px;
+  font-weight: 750;
+
+}
+
+.donate h1{
+  /* padding-top: 30px; */
+  font-size: 30px;
+  font-weight: 750;
+
+}
+.d-logo{
+  height: 100px;
+  width: 100px;
+  margin: 0 auto;
+  background-color: #F5E4C6;
+  border-radius: 100%;
+  margin-top: 30px;
+}
+.d-img {
+  width: 95%;
+  background-color: #484848;
+  height: 283px;
+  margin: 0 auto;
+  border-radius: 20px;
+}
+.d-img img{
+  width: 100%;
+  object-fit: cover;
+  height: 100%;
+}
+
+
+
+.st{
+  padding-top: 40px;
+  padding-bottom: 20px;
+  background-color: #CFA46D;
+}
+
+
+.donate {
+  padding-top: 10px;
+  padding-bottom: 30px;
+  background-color: #592020;
+}
+
+
+.at{
+  padding-top: 40px;
+  padding-bottom: 20px;
+    background-color:  #CFA46D;
+}
+.ft{
+  padding-top: 40px;
+  padding-bottom: 18px;
+  background-color: #C1724B;
+}
+
+
+
+
+/* banner section */
+.banner-section {
+  margin-top: 20px;
+  border-radius: 20px;
+  background: #592020;
+}
+.banner-section h2 {
+  padding: 5px 12px;
+  color: #ffff;
+  text-align: center;
+  font-family: "Roboto Slab", serif;
+  font-weight: 900;
+  font-size: 35px;
+  /* line-height: 60px; */
+  margin-bottom: 0px;
+}
+ 
+
+
+/* devine store section */
+.divine-store-section {
+  padding-top: 20px;
+}
+.store-section {
+  background: #592020;
+  border-radius: 33px;
+  padding-bottom: 350px;
+}
+.store-heading {
+  border-radius: 33px 33px 0px 0px;
+  background: #dbc4b2;
+  padding: 29px 0px 46px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.store-heading h2 {
+  color: #592020;
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-size: 55px;
+  line-height: 60px;
+  margin-bottom: 0px;
+}
+.yagam-section {
+  background: #d0a56e;
+  border-radius: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* padding-top: 28px 0px 14px 0px; */
+}
+.yagam-sec {
+  padding-bottom: 129px;
+}
+.yagam-section img {
+  margin-top: 28px;
+  width: 130px;
+  height: 130px;
+  margin-bottom: 15px;
+}
+.yagam-section h3 {
+  color: #000000;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  padding-top: 20px;
+  font-size: 20px;
+  
+  letter-spacing: 0%;
+  text-align: center;
+  margin-bottom: 0px;
+  padding-bottom: 14px;
+}
+.divine-store-section .homam-btn {
+  background: #d0a56e;
+  border-radius: 40px;
+  padding: 47px 0px;
+  color: #592020;
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-size: 42px;
+  line-height: 60px;
+  text-align: center;
+  margin-top: 20px;
+  width: 100%;
+}
+
+
+
+
+/* Depts Section */
+
+.depts-section {
+  margin-top: 15px;
+}
+.the-3-depts{
+  background-color: #592020;
+  border-radius: 20px;
+}
+.td-3depts{ 
+  border-radius: 20px 0px 0px 20px;
+}
+.td-bg{
+  border-radius: 0px 20px 20px 0px;
+}
+
+.td-3depts img{
+  width: 100%;
+  padding-top: 50px;
+  padding-left: 30px;
+  height: 40%;
+  display: flex;
+}
+.td-3depts h1{
+  
+  padding-top: 80px;
+  padding-left: 30px;
+  font-size: 25px;
+  font-family: "robot",sans-serif;
+  font-weight: 900;
+  vertical-align: middle;
+  align-items: center;
+  color: white;
+}
+.td-bg img{
+  width: 100%;
+  object-fit: cover;
+
+}
+.ts-1{
+  margin-top: 5px;
+  border-radius: 20px;
+  width: 97%;
+  height: 97%;
+  background-color: #8C4776;
+}
+.ts-2{
+  width: 97%;
+  height: 97%;
+  margin-top: 5px;
+  border-radius: 20px;
+  background-color:#C1724B;
+}
+.ts-round-img{
+  border-radius: 100%;
+  border: 5px solid #592020;
+  height: 120px;
+  width: 120px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+
+  
+}
+.ts-round-img img{
+   object-fit: cover;
+  border-radius: 100%;
+  /* border: 2px solid #592020; */
+  height: 100%;
+  width: 100%;
+}
+.ts-data{
+  width: 60%;
+  float: right;
+}
+.ts-data h1{
+  padding-top: 15px;
+  font-size: 30px;
+  font-weight: 750;
+}
+.ts-data h2{
+  font-size: 30px;
+  font-weight: 600;
+}
+.ts-data .btn{
+  width: 150px;
+  font-size: 26px;
+  font-weight: 600;
+  border-radius: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* //////////////////////////////////// Media Queries ///////////////////////////////////////////////////// */
+
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 768px) {
+  .group-img-2,
+ .group-img-1,
+ .group-text {
+  margin-top: 10px;
+ }
+ .group-img-1 img,
+ .group-img-2 img{
+  object-fit: cover;
+ }  
+ .images-group-1, 
+ .images-group-2{
+  width: 100%;
+  margin-left: 0px;
+  
+  }
+  .images-groups{
+      padding-top: 0px;
+      padding-bottom: 10px;
+  }
+  .ct {
+      padding-left: 0px;
+  }
+  
+  .positioning-img{
+      display: none;
+  }
+  .banner-section h2{
+    font-size: 22px !important;
+  }
+
+}
+@media only screen and (max-width: 600px) {
+      /* body{
+        background-color: yellow;
+      } */
+      .header-img{
+        height: 25px;
+      }
+      .hero-heading h1{
+        font-size: 32px;
+        line-height: 46px;
+        margin-bottom: 0px;
+      }
+      .darsanam-navbar .navbar-nav .nav-link{
+        margin-top: 15px;
+        padding-left: 10px;
+        
+      }
+      .second-img{
+        display: none;    
+      }
+      .login-btns .btn{
+        width: 50%;
+      }
+      .ss-tm .col-md-4{
+        padding: 0px;
+        margin-top: 10px;
+       
+      }
+      .s-sec{
+        padding-top: 10px;
+      }
+      .ss-tm .ss-temples{
+        border-radius: 13px 13px 13px 13px !important;
+      }
+      /* .second-img{
+        display: none;
+    
+      }  */
+      .darsanam-section img {
+        width: 70%;
+      }
+
+      .hindu-calender img{
+        display: none; 
+      }       
+      .calendar{
+        width: 100%;
+      }
+      .cal-body__day {
+        width: 42px;
+        height: 42px;
+        font-size: 14px;
+        font-weight: 700;
+      }
+      .cal-body__week, .calendar__head {
+        width: 100%;
+      }
+      .cal-head__day{
+        width: 42px;
+        font-size: 14px;
+        font-weight: 700;
+        text-align: center;
+      }
+      .calender-section .hindu-calender{
+        padding-bottom: 35px;
+      }
+      .calendar__head , .cal-body__week{
+        display: flex;
+        justify-content: space-evenly;
+      }
+            
+      .hc-heading h1 {
+        font-size: 25px;
+        padding-left: 0px;
+        text-align: center;
+      } 
+      .fact-sec p {
+        padding-bottom: 0px;
+        font-size: 17px;
+        line-height: 35px;
+      }
+      .fact-sec h4,.temple-india-section h3  {
+        padding-bottom: 0px;
+        font-size: 24px;
+        line-height: 30px;
+      }
+      .copyright-section p{
+        font-size: 14px;
+      }
+
+      .check-sec label{
+        font-size: 13px;
+      }
+      .td-3depts img {
+        width: 70%;
+        height: 50%;
+      }
+      .td-3depts h1{
+        font-size: 25px !important;
+      }
+
+     
+
+  
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media (min-width: 600px) and (max-width: 768px) {
+  /* body{
+    background-color: aqua;
+  } */
+  .second-img{
+    display: none;
+
+  }
+  .td-3depts img {
+    width: 70%;
+    height: 50%;
+  }
+  
+  .header-img{
+    height: 30px;
+  }
+  .darsanam-navbar .navbar-nav .nav-link{
+    margin-top: 15px;
+    padding-left: 10px;
+    
+  }
+  .login-btns .btn{
+    width: 50%;
+  }
+  .darsanam-section img {
+    width: 50%;
+  }
+  .services-section{
+    height: auto;
+  }
+  .check-sec label{
+    font-size: 16px;
+  }
+  .ss-tm .col-md-4{
+    padding: 0px;
+    margin-top: 10px;
+   
+  }
+  .s-sec{
+    padding-top: 10px;
+  }
+  .ss-tm .ss-temples{
+    border-radius: 13px 13px 13px 13px !important;
+  }
+  .hindu-calender img{
+    display: none;
+    
+  }
+
+
+
+  .calendar{
+    width: 100%;
+  }
+  .cal-body__day {
+    width: 62px;
+    height: 62px;
+}
+.cal-body__week, .calendar__head {
+  width: 100%;
+}
+.cal-head__day{
+  width: 62px;
+  text-align: center;
+}
+.calender-section .hindu-calender{
+  padding-bottom: 35px;
+} 
+.hc-heading h1 {
+  font-size: 25px;
+  padding-left: 0px;
+  text-align: center;
+}
+}
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+  
+    /* body{
+      background-color: blue;
+    } */
+   
+    .dms-map-card h4{
+      font-size: 20px;
+    }
+    .dms-map-card p{
+      font-size: 11px;
+    }
+    .header-img {
+      height: 35px;
+    }
+    .hero-heading h1{
+      font-size: 30px;
+      line-height: 46px;
+    }
+    .darsanam-navbar .navbar-nav .nav-link{
+      margin-top: 15px;
+      padding-left: 10px;
+      
+    }
+    .book-a-pooja img{
+      height: 630px;
+    }
+    .login-btns .btn{
+      width: 50%;
+    }
+    .td-3depts img {
+      width: 70%;
+      height: 53%;
+      display: flex;
+  }
+  .td-3depts h1{
+    font-size: 30px;
+  }
+  
+}
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (max-width: 992px) {
+  
+    /* body{
+      background-color: purple;
+    }
+     */
+     .td-3depts h1{
+      font-size: 30px;
+    }
+     .td-bg img{
+      width: 60%;
+    }
+    .temple-india-section h3{
+      text-align: left;
+    }
+    .header-img{
+      height: 30px;
+    }
+    .hero-heading h1{
+      margin-bottom:0px;
+    }
+    
+    .select-your-issue {
+  margin-top: 20px;
+}
+.hindu-calender img {
+  height: 335px !important;
+}
+.b-m-data h3 {
+  padding-top: 22px;
+}
+.ct,.h-p{
+  border-radius: 20px;       
+}
+.h-p{
+  margin-top: 10px;
+  margin-left: 13px;
+}
+.ct{
+  margin-right: 12px;
+}
+
+.b-m-img img{
+  height: 450px;
+  width: 100%;
+  border-radius: 10px;
+} 
+
+.hc-heading h1{
+  text-align: center;
+  padding-left: 65px;
+}
+.calendar{
+  text-align: center;
+  width: 100%;
+  margin-left: 20px;
+}.cal-body__week, .calendar__head{
+  display: flex;
+  width: 90% !important;
+  justify-content: space-evenly;
+}
+}
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (max-width: 1200px) {
+  
+    /* body{
+      background-color: pink;
+    } */
+    .banner-section h2{
+      font-size: 30px;
+    }
+
+    .s-sec{
+      padding-bottom: 35px;
+    }
+    .ss-temples img {
+      height: 177px;
+  }
+  .dms-map ,.dms-imgs ,.services-section{
+    margin-top: 20px;
+  }
+  .dms-imgs img{
+    height: 347px;
+  }
+  .services-section{
+    height: auto;
+  }
+  .fs-issue form input, .fs-issue form textarea {
+    width: 65%;
+}
+.issue-below-texts h2 {
+ 
+  font-size: 12px;
+  font-weight: 500;
+
+}
+.hindu-calender img {
+  height: 450px;
+  width: 215px;
+}
+
+.ct{
+  padding-bottom: 94px !important;
+ }
+ .check-sec .form-check {
+  padding-bottom: 10px;
+ }
+ .services-section h3{
+  padding-top: 10px;
+ }
+ .ss-data h4{
+  font-size: 20px;
+ }
+ .ss-data p{
+  font-size: 17px;
+ }
+ .ss-temples h5{
+  font-size: 18px;
+ }
+ 
+ .yagam-section{
+  margin-top: 20px;
+ }
+ .ts-1,.ts-2{
+  margin: 5px auto;
+
+ }
+}
+@media(max-width: 1399px){
+  .ct{
+      padding-bottom: 61px;
+  }
+  .the-3-depts{
+    padding-top: 48px;
+  }
+}      
+@media (min-width: 1800px){
+  .b-m-img img{
+      height: 160px;
+      width: 90%;
+  }
+  .b-m-peragraph p{
+      width: 91%;
+  }
+}
+@media only screen and (min-width: 1800px) {
+  
+    /* body{
+      background-color: pink;
+    } */
+
+    .header-img {
+      height: 80px;
+    }
+}
